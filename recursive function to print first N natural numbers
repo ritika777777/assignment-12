@@ -1,0 +1,17 @@
+#include<stdio.h>
+int natural(int);
+int main(){
+    int num,n;
+
+printf("enter your number: ");
+scanf("%d",&num);
+natural(num);
+return 0;
+}
+int natural(int num)
+{
+    int i;
+    for(i=1;i<=num;i++)
+    printf("%d\n",i);
+
+}
